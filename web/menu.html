@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The Haukai Restaurant - Our Food</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"><!--add a favicon icon the image from the logo-->
+    <link rel="stylesheet" href="css/style.css"><!--load external style sheet-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--load the w3schools style sheet-->
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/HaukaiLogo.png" alt="Haukai Restaurant Logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="hours.html">Hours</a></li>
+            <li><a class="active" href="menu.html">Our Food</a></li>
+            <li class="right"><a href="private/staff.html">Staff Login</a></li>          
+            <li class="right"><a href="reservations.html">Book Now</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--The menu was templated off this w3schools example https://www.w3schools.com/w3css/w3css_web_tmp_pizza.asp -->
+        <div id="menu">
+            <h2 class="title">THE MENU</h2>
+            <!--create a menu bar to allow anchor linking to different parts of the menu.-->
+            <ul class="menuBar" >
+                <li><a href="#appetizers">APPETIZERS</a></li>
+                <li><a href="#mains">MAIN</a></li>
+                <li><a href="#dessert">DESSERT</a></li>
+                <li><a href="#beverages">BEVERAGES</a></li>
+            </ul>
+
+            <!--Appetizers for the menu-->
+            <h3 id="appetizers"  class="menuType">APPETIZERS</h3>
+            <div class="menuStyle">
+                <img span class="foodImage" src="images/rewaenaBread.jpg" alt="photo of Rewena Bread. A traditional Māori Bread"><h4><b>REWENA BREAD</b> <span class="menuPrice">$10</span></h4><!--image ref https://www.flickr.com/photos/sierravalleygirl/5648268452 -->
+                <p class="menuText">Traditional Māori bread.</p>
+                <hr>
+                <img span class="foodImage" src="images/pauaFritter.jpg" alt="photo of the paua fritter"><h4><b>PAUA FRITTER</b> <span class="menuPrice">$16</span></h4><!--image ref https://pixabay.com/photos/apfelkuechle-apple-fritters-apples-3730870/ -->
+                <p class="menuText">Finely diced pieces of paua, served with a side salad and horopito dressing.</p>
+                <hr>
+                <img class="foodImage" src="images/rawFish.jpg" alt="photo of raw fish in coconut cream"><h4><b>RAW FISH</b> <span class="menuPrice">$20</span></h4><!--image ref https://commons.wikimedia.org/wiki/File:Vegetable_Raita.jpg -->
+                <p class="menuText">Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions.</p>
+                <hr>
+                <img span class="foodImage" src="images/poachedSalmon.jpg" alt="photo of the poached salmon."><h4><b>POACHED SALMON</b> <span class="menuPrice">$22</span></h4><!--image ref https://www.flickr.com/photos/avlxyz/489758881 -->
+                <p class="menuText">Salmon poached in an orange and pistachio glaze, served with rewena bread.</p>
+                <hr>
+                <img span class="foodImage" src="images/seafoodPlatter.jpg" alt="photo of the seafood platter."><h4><b>SEAFOOD BASKET</b> <span class="menuPrice">$25</span></h4><!--image ref https://www.foodnetwork.com/recipes/the-sampler-platter-5230853 -->
+                <p class="menuText">Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p>
+            </div>
+            
+            <!--Mains for the menu-->
+            <h3 id="mains"  class="menuType">MAIN</h3>
+            <div class="menuStyle">
+                <img span class="foodImage" src="images/fishAndChips.jpg" alt="photo of the beer battered fish and chips."><h4><b>FISH OF THE DAY</b> <span class="menuPrice">$25</span></h4><!--image ref https://pixabay.com/photos/fish-and-chip-fried-fish-chip-3039746/ -->
+                <p class="menuText">Beer battered fish and kumara fries, served with a side salad and homemade tartare.</p>
+                <hr>
+                <img span class="foodImage" src="images/musselsAndScallops.jpg" alt="photo of the mussels and scallops."><h4><b>MUSSELS AND SCALLOPS</b> <span class="menuPrice">$25</span></h4><!--image ref https://www.pexels.com/photo/sliced-bread-with-sliced-vegetables-on-white-ceramic-plate-beside-stainless-steel-fork-and-knife-9392764/ -->
+                <p class="menuText">Steamed mussel & scallop mousse, honey and soy broth.</p>
+                <hr>
+                <img span class="foodImage" src="images/seafoodChowder.jpg" alt="photo of the seafood chowder"><h4><b>SEAFOOD CHOWDER</b> <span class="menuPrice">$30</span></h4><!--image ref https://commons.wikimedia.org/wiki/File:Shrimp_and_corn_chowder.jpg -->
+                <p class="menuText">Creamy chowder filled with terakihi, prawn, hoki, scallops and mussels, served with flatbread.</p>
+                <hr>
+                <img span class="foodImage" src="images/porkBelly.jpg" alt="photo of the pork belly"><h4><b>PORK BELLY</b> <span class="menuPrice">$30</span></h4><!--image ref https://www.piqsels.com/en/public-domain-photo-ofpmc-->
+                <p class="menuText">Slow cooked pork belly served on a bed of apple slaw with roasted kumara, and crispy noodle.</p>
+                <hr>
+                <img span class="foodImage" src="images/LambSteak.jpg" alt="photo of the lamb steak"><h4><b>LAMB STEAK</b> <span class="menuPrice">$33</span></h4><!--image ref https://www.pexels.com/photo/sliced-steak-on-plate-299348/ -->
+                <p class="menuText">New Zealand Lamb coated in a kawakawa crumb, served with Dijon mustard glazed carrots, roasted butternut squash and a mushroom Jus.</p>
+                <hr>
+                <img span class="foodImage" src="images/venison.jpg" alt="photo of the venison with plums"><h4><b>VENISON</b> <span class="menuPrice">$33</span></h4><!--image ref https://commons.wikimedia.org/wiki/File:Galvin_La_Chapelle,_Spitalfields,_London_(4286639554).jpg-->
+                <p class="menuText">Venison crusted with horopito, served with glazed plums, cabbage salad and red wine Jus.</p>
+            </div>
+            
+            <!--Dessert for the menu-->
+            <h3 id="dessert"  class="menuType">DESSERT</h3>
+            <div class="menuStyle">
+                <img span class="foodImage" src="images/kapitiIceCream.jpg" alt="photo of Kapiti ice cream"><h4><b>KĀPITI ICE CREAM</b> <span class="menuPrice">$10</span></h4><!--image ref https://commons.wikimedia.org/wiki/File:Chocolate_ice_cream_with_chocolate_chips.jpg -->
+                <p class="menuText">Check for daily specials.</p>
+                <hr>
+                <img span class="foodImage" src="images/steamPudding.jpg" alt="photo of golden syrup steam pudding with ice cream"><h4><b>STEAM PUDDING</b> <span class="menuPrice">$12</span></h4><!--image ref https://commons.wikimedia.org/wiki/File:-2019-02-01_Baked_fruits_of_the_forest_sponge_pudding,_Cromer_(2).JPG -->
+                <p class="menuText">Golden syrup flavoured steam pudding, served with vanilla ice cream.</p>
+                <hr>
+                <img span class="foodImage" src="images/pavlova.jpg" alt="photo of pavlova with fresh fruit and cream"><h4><b>MINI PAVLOVA</b> <span class="menuPrice">$16</span></h4><!--image ref https://www.pexels.com/photo/tasty-meringue-dessert-decorated-with-strawberries-in-cafeteria-6310078/ -->
+                <p class="menuText">Mini Pavlova served with kawakawa and lemon infused cream and fresh fruit.</p>
+                <hr>
+                <img span class="foodImage" src="images/banoffeePie.jpg" alt="photo of banofee pie"><h4><b>BANOFFEE PIE</b> <span class="menuPrice">$16</span></h4><!--image ref https://commons.wikimedia.org/wiki/File:Slice_of_banoffee_pie_with_vanilla_ice_cream_and_strawberries.jpg -->
+                <p class="menuText">Toffee, fresh bananas and fresh cream.</p>
+            </div>
+
+            <!--Beverages for the menu-->
+            <h3 id="beverages" class="menuType">BEVERAGES</h3>
+            <div class = "bevContainer"><!--beverage container for the two child containers-->
+                <div class="bevChild"><!--this child has RED and WHITE wines-->
+                        <h3><b>RED</b> <span class="menuPrice">B/G</span></h3>
+                        <h4>Terrace Edge Pinot Noir, 2012, Wairarapa <span class="menuPrice">$53/$13</span></h4>
+                        <h4>Altitude Pinot Noir, 2010, Marlborough <span class="menuPrice">$64/$15</span></h4>
+                        <h4>Greystone Pinot Noir, 2012, Wairarapa <span class="menuPrice">$73/$17</span></h4>
+                        <h4>Terrace Edge Syrah, 2012 Wairarapa <span class="menuPrice">$53/$13</span></h4>
+                        <h4>Altitude Syrah, 2010 Marlborough <span class="menuPrice">$64/$15</span></h4>
+                        <h4>Greystone Syrah, 2012, Wairarapa <span class="menuPrice">$73/$17</span></h4>
+                        <h4>Pegasus Bay Merlot, 2013, Waipara <span class="menuPrice">$65/$14</span></h4>
+                        <h4>Pegasus Bay Pinot Noir, 2013, Waipara <span class="menuPrice">$110/N/A</span></h4>
+                        <hr>
+                        <h3><b>WHITE</b> <span class="menuPrice">B/G</span></h3>        
+                        <h4>Spade Oak Pinot Gris, 2011, Gisborne <span class="menuPrice">$40/$10</span></h4>
+                        <h4>Maude Pinot Gris, 2017, Otago <span class="menuPrice">$49.50/$11</span></h4>
+                        <h4>Charles Wiffen Chardonnay, 2013, Otago <span class="menuPrice">$48/$11</span></h4>
+                        <h4>Amisfield, Riesling, 2016, Otago <span class="menuPrice">$53/$12</span></h4>
+                        <h4>Lamont Riesling, 2010, Otago <span class="menuPrice">$57/$13</span></h4>
+                        <h4>Elephant Hill Viognier, 2013, Hawkes Bay <span class="menuPrice">$55/$12</span></h4>
+                        <h4>Folium Sauvignon Blanc, 2011, Marlborough <span class="menuPrice">$52/$11</span></h4>
+                        <h4>Billecart-Salmon Brut Reserve, France <span class="menuPrice">$120/N/A</span></h4>
+                        <hr>
+                    </div>  
+                <div class="bevChild"><!--this child has BEER AND CIDER and NON-ALCOHOLIC drinks-->
+                        <h3><b>BEER AND CIDER</b> </h3>        
+                        <h4>Garage project range <span class="menuPrice">$11</span></h4>
+                        <h4>Tuatara range <span class="menuPrice">$11</span></h4>
+                        <h4>Panhead range <span class="menuPrice">$10</span></h4>
+                        <h4>Coopers Ale <span class="menuPrice">$10</span></h4>
+                        <h4>Heineken <span class="menuPrice">$11</span></h4>
+                        <h4>Moa Cider <span class="menuPrice">$10</span></h4>
+                        <h4>Crooked Cider <span class="menuPrice">$10</span></h4>
+                        <hr>
+                        <h3><b>NON-ALCOHOLIC</b> </h3>        
+                        <h4>Mineral water <span class="menuPrice">$4.00</span></h4>
+                        <h4>Soft drinks <span class="menuPrice">$4.00</span></h4>
+                        <h4>Juice <span class="menuPrice">$4.00</span></h4>
+                        <h4>Coffee <span class="menuPrice">$4.50</span></h4>
+                        <h4>Tea <span class="menuPrice">$3.50</span></h4>
+                        <hr>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--The footer which is common across all pages-->
+    <footer>
+        <!--using the footerbox create 3 1 for contact info, 2 for testimonials, 3 social media links. add the bottom a copyright statement and a link to the privacy statement-->
+        <div class="footerbox">
+            <b>Contact:</b><br>1 Island Street<br>Kerikeri, Bay of Islands<br>09 401 4019<br><a href="mailto:info@haukai.co.nz">Email Us</a>
+        </div>
+        <div class="footerbox">
+            <div class="myTestimonials">
+                <b>Testimonials:</b><p><em>"I love coming to Haukai Restaurant, the food and atmosphere is always great"</em><br>Richard H.</p>
+            </div>
+            <div class="myTestimonials">
+                <b>Testimonials:</b><p><em>"Highly recommend the Haukai Restaurant, A+++++"</em><br>Julia B.</p>
+            </div>
+            <div class="myTestimonials">
+                <b>Testimonials:</b><p><em>"When I am back in the Bay of Islands, I will definitely be booking a table"</em><br>Simon D.</p>
+            </div>
+            <div class="myTestimonials">
+                <b>Testimonials:</b><p><em>"The Māori culture that is on offer is worth the visit, the food is an added bonus"</em><br>Margaret G.</p>
+            </div>
+        </div>
+        <div class="footerbox">
+            <!--https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/-->
+            <b>Social Media:</b><br><a href="https://facebook.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/facebook-square-brands.svg" alt="facebook logo"></a><a href="https://instagram.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/instagram-brands.svg" alt ="instagram logo"></a><a href="https://youtube.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/youtube-brands.svg" alt = "youtube logo"></a><a href="https://tiktok.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/tiktok-brands.svg" alt="tiktok logo"></a><a href="https://twitter.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/twitter-brands.svg" alt="twitter logo"></a>
+        </div>
+        <p class="copyright">©Copyright 2022 by The Haukai Restaurant. All rights reversed. You can view our privacy statement <a href="privacy.html">here.</a></p>
+    </footer>
+    <script src="js/carouselTest.js"></script> <!--load the slideshow scripts added to the bottom so there isn't an undefined error-->
+    <script> carouselTest(); </script><!--Call the script for the slideshow of tstimonaels-->
+</body>
+</html>

@@ -1,0 +1,298 @@
+/*global optionsto select font type with with fall back options*/
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*select the header background colour to be the same as the header logo*/
+header {
+    background-color: #a6a6a6;
+}
+
+/*body background colour white*/
+body {
+    background-color: white;
+}
+
+footer {
+    font-size: 2vw;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    font-size: 1.5vw;
+}
+
+.resveration_iframe {
+    width:100%; height:1675px
+}
+
+iframe {
+    width:100%; height:20vw
+}
+
+/* nav bar css modified from w3schools https://www.w3schools.com/css/css_navbar_horizontal.asp and https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive */
+/*This allows the menu to always be on top and needed a high z-index to stay on top of other content*/
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index:999;
+}
+
+/*Nav bar styling*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*Set up the nav tabs to the left */
+nav li {
+    float: left;
+}
+
+/*tab text style*/
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Allow a tab to be on the right*/
+nav li.right {
+    float: right;
+}
+
+/* Change the link color to #04AA6D on active tab */
+nav li a.active {
+    background-color: #D2DF64;
+    color: black;
+}
+  
+/* Change the link color to #111 (black) on hover */
+nav a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*Sets the styling for the menu bar - similar to the nav bar but with the text centered*/
+.menuBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+/*sets the text in the menu bar*/
+.menuBar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.menuBar ul {
+    text-align: center;
+}
+
+.menuBar li {
+    display: inline-block;
+}
+
+/*when hovering over a menu option it colours it similar to the navbar.*/
+.menuBar li a:hover {
+    background-color: #D2DF64;
+    color: black;
+}
+
+/*lots of */
+.menuStyle {
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:32px;
+    padding-bottom:32px;
+    background-color:white;
+}
+
+.menuType {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #a6a6a6;
+}
+
+.foodImage {
+    height: 75px;
+    width: 100px;
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+/*when using the anchour links in menuBar this was added to stop the navbar getting in in the way of showing the menuTypes*/
+h3 { 
+    scroll-margin-top: 36px;
+}
+
+.menuText {
+      color: #333;
+}
+
+/*this was to put the prices inside a box on the right hand side*/
+.menuPrice {
+    float: right;
+    background-color: #333;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius:4px;
+    color: white;
+}
+
+/*when the screen is larger than 1100 pixels i wanted to stack the beveraigdes into two columns*/
+/*I iused this website to help build the container(parent) and child boxes The min-height was import to get the footer boxes to stay down*/
+.bevContainer {
+    display: flex;
+    align-items: stretch;
+}
+  
+.bevChild {
+    float: left;
+    min-height: 100%; 
+    background-color:white; 
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 50%
+}
+
+
+.myImage {
+    width:100%;
+}
+
+/*class for text slideshow on the homepage https://www.w3schools.com/w3css/w3css_slideshow.asp*/
+.myTestimonials {
+    display:none;
+    width:100%;
+}
+
+.mainImage {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    max-height: 50%;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.menuImage {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-height: 5%;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+/* centre text on image https://www.w3schools.com/howto/howto_css_image_text.asp*/
+.centered {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+
+  /*the logo ccan be no wider than the screen*/
+.logo {
+    max-width: 100%;
+}
+
+/*The main text to be centered with some padding*/
+.large_centre {
+    font-size: 36px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*The text to be centered with some padding smaller than large*/
+.medium_centre {
+    font-size: 28px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*my footer to be divided into thirds*/
+.footerbox {
+    height: 14vw;
+    width: 33.3%;
+    float: left;
+    padding: .1vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+/*sets the size of the social media */
+.socialLogo {
+    width:3vw;
+    height:3vw;
+    padding-right:0.5vw;
+    padding-top: 1vw;
+}
+
+
+
+/*styling for the privacy page*/
+.privacy {
+    width: 100%;
+    font-size: 28px;
+    padding: 2vw;
+}
+
+/*styling for the h2 titles on each page excluding main*/
+.title {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+/*When the screen is below 1100px make content go vertical. I set it to be 1100 because most modern phones are 1080 pixels wide*/
+/*I worked through the options and classes to select what looked like the best options for what needed adjusting*/
+@media screen and (max-width: 1100px) {
+    nav li.right,
+    nav li {float:none;}
+    nav {position:relative;}
+    .menuBar li {display:block;}
+    .menuBar li a {font-size:5vw;}
+    .nav li a {font-size:5vw;}
+    main .large_centre {font-size:3vw;}
+    footer .footerbox {float:none; font-size:3vw; text-align:center; height:22vw; width:100%;}
+    footer .socialLogo{width:6vw; height:6vw;}
+    main iframe {width: 100%; height:50vw}
+    .copyright {font-size: 2.5vw;}
+    .privacy p, ul {font-size: 3vw;}
+    .bevContainer {flex-direction: column;}
+    .bevChild {float:none; min-width: 100%}
+    .bevChild h3 {font-size:4vw; padding-bottom:.6vw;}
+    .bevChild h4 {font-size:3vw; padding-top:.5vw; padding-bottom:.5vw}
+    .menuText {font-size:3vw;}
+    .menuStyle h4 {font-size:4vw; padding-top:.5vw; padding-bottom:.5vw}
+}

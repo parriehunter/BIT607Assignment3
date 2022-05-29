@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The Haukai Restaurant</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"><!--add a favicon icon the image from the logo-->
+    <link rel="stylesheet" href="css/style.css"><!--load external style sheet-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--load the w3schools style sheet-->
+</head>
+<body>
+    <!--The header and nav are common across all pages-->
+    <header>
+        <!--Header image-->
+        <a href="index.html"><img class="logo" src="images/HaukaiLogo.png" alt="Haukai Restaurant Logo"></a>
+    </header>
+    <!--Create the nav bar and highlight the active tab so it is coloured and stands out-->
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>  
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="hours.html">Hours</a></li>
+            <li><a href="menu.html">Our Food</a></li>
+            <li class="right"><a href="private/staff.html">Staff Login</a></li>          
+            <li class="right"><a href="reservations.html">Book Now</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--Create an image to show of the restaurant-->
+        <div class="mainImage">
+            <img class="myImage" src="images/HaukaiRestaurant.jpg" alt="photo of Haukai Restaurant"> <!--Image reference image ref https://www.pexels.com/photo/trendy-interior-of-cafe-with-creative-lamps-and-wooden-furniture-3887985/-->
+            <!--Add text over the images-->
+            <div class="centered">Welcome to the Haukai Restaurant<br>Where the food is just one part of the experience</div>
+        </div>
+        <!--the main body of text on the home page-->
+        <p class="large_centre">We specialise in Māori <em>kai</em> (food) in Kerikeri, Bay of Islands</p>
+        <p class="large_centre">Experience <em>Te Ao Māori</em>, (Māori world view) which acknowledges the interconnectedness and interrelationship of all living & non-living things</p>
+        <p class="large_centre">Having a <em>karakia kai</em> (blessing of the food) before eating and <em>whakairo</em> (carving) on display are just some of the Māori culture you will experience</p>
+        <p class="large_centre"><b>Karakia kai</b><br>Whakapaingia ēnei kai (Bless this food)<br>Hei oranga mō ō mātou tinana (For the health of our bodies)<br>Mō ō mātou wairua hoki (And our spirits)<br>Āmine (Amen)</p> <!--Karakia kai from here https://www.playcentre.org.nz/wp-content/uploads/2019/09/Karakia-Kai-Whakapaingia-%C4%93nei-kai-Food-Incantation-Health-Wellbeing.pdf-->
+    </main>
+    <!--The footer which is common across all pages-->
+    <footer>
+        <!--using the footerbox create 3 1 for contact info, 2 for testimonials, 3 social media links. add the bottom a copyright statement and a link to the privacy statement-->
+        <div class="footerbox">
+            <b>Contact:</b><br>1 Island Street<br>Kerikeri, Bay of Islands<br>09 401 4019<br><a href="mailto:info@haukai.co.nz">Email Us</a>
+        </div>
+        <div class="footerbox">
+            <div class="myTestimonials">
+                <b>Testimonials:</b><p><em>"I love coming to Haukai Restaurant, the food and atmosphere is always great"</em><br>Richard H.</p>
+            </div>
+            <div class="myTestimonials">
+                <b>Testimonials:</b><p><em>"Highly recommend the Haukai Restaurant, A+++++"</em><br>Julia B.</p>
+            </div>
+            <div class="myTestimonials">
+                <b>Testimonials:</b><p><em>"When I am back in the Bay of Islands, I will definitely be booking a table"</em><br>Simon D.</p>
+            </div>
+            <div class="myTestimonials">
+                <b>Testimonials:</b><p><em>"The Māori culture that is on offer is worth the visit, the food is an added bonus"</em><br>Margaret G.</p>
+            </div>
+        </div>
+        <div class="footerbox">
+            <!--https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/-->
+            <b>Social Media:</b><br><a href="https://facebook.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/facebook-square-brands.svg" alt="facebook logo"></a><a href="https://instagram.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/instagram-brands.svg" alt ="instagram logo"></a><a href="https://youtube.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/youtube-brands.svg" alt = "youtube logo"></a><a href="https://tiktok.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/tiktok-brands.svg" alt="tiktok logo"></a><a href="https://twitter.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/twitter-brands.svg" alt="twitter logo"></a>
+        </div>
+        <p class="copyright">©Copyright 2022 by The Haukai Restaurant. All rights reversed. You can view our privacy statement <a href="privacy.html">here.</a></p>
+    </footer>
+    <script src="js/carouselTest.js"></script> <!--load the slideshow scripts added to the bottom so there isn't an undefined error-->
+    <script> carouselTest(); </script><!--Call the script for the slideshow of testimonaels-->
+</body>
+</html>
