@@ -4,12 +4,12 @@
 }
 
 /*select the header background colour to be the same as the header logo*/
-header {
+/*header {
     background-color: #a6a6a6;
-}
+}*/
 
 /*body background colour white*/
-body {
+/*body {
     background-color: white;
 }
 
@@ -18,7 +18,7 @@ footer {
     text-align: center;
     bottom: 0;
     width: 100%;
-}
+}*/
 
 .copyright {
     font-size: 1.5vw;
