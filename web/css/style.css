@@ -40,53 +40,53 @@ iframe {
 
 /* nav bar css modified from w3schools https://www.w3schools.com/css/css_navbar_horizontal.asp and https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive */
 /*This allows the menu to always be on top and needed a high z-index to stay on top of other content*/
-nav {
+/*nav {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     width: 100%;
     z-index:999;
-}
+}*/
 
 /*Nav bar styling*/
-nav ul {
+/*nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
+}*/
 
 /*Set up the nav tabs to the left */
-nav li {
+/*nav li {
     float: left;
-}
+}*/
 
 /*tab text style*/
-nav li a {
+/*nav li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
-}
+}*/
 
 /*Allow a tab to be on the right*/
-nav li.right {
+/*nav li.right {
     float: right;
-}
+}*/
 
 /* Change the link color to #04AA6D on active tab */
-nav li a.active {
+/*nav li a.active {
     background-color: #D2DF64;
     color: black;
-}
+}*/
   
 /* Change the link color to #111 (black) on hover */
-nav a:hover:not(.active) {
+/*nav a:hover:not(.active) {
     background-color: #111;
-}
+}*/
 
 /*Sets the styling for the menu bar - similar to the nav bar but with the text centered*/
 .menuBar {
