@@ -225,9 +225,9 @@ h3 {
   }
 
   /*the logo ccan be no wider than the screen*/
-.logo {
+/*.logo {
     max-width: 100%;
-}
+}*/
 
 /*The main text to be centered with some padding*/
 .large_centre {
