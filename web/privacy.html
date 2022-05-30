@@ -48,28 +48,38 @@
     <!--The footer which is common across all pages-->
     <footer>
         <!--using the footerbox create 3 1 for contact info, 2 for testimonials, 3 social media links. add the bottom a copyright statement and a link to the privacy statement-->
-        <div class="footerbox">
-            <b>Contact:</b><br>1 Island Street<br>Kerikeri, Bay of Islands<br>09 401 4019<br><a href="mailto:info@haukai.co.nz">Email Us</a>
-        </div>
-        <div class="footerbox">
-            <div class="myTestimonials">
-                <b>Testimonials:</b><p><em>"I love coming to Haukai Restaurant, the food and atmosphere is always great"</em><br>Richard H.</p>
+        <div class="w3-row">
+            <div class="w3-third w3-container">
+                <h4 class="w3-center"><b>Contact:</b></h4><p class="w3-large w3-center"><br>1 Island Street<br>Kerikeri, Bay of Islands<br>09 401 4019<br><a href="mailto:info@haukai.co.nz">Email Us</a></p>
             </div>
-            <div class="myTestimonials">
-                <b>Testimonials:</b><p><em>"Highly recommend the Haukai Restaurant, A+++++"</em><br>Julia B.</p>
+            <div class="w3-third w3-container">
+                <div class="myTestimonials">
+                    <h4 class="w3-center"><b>Testimonials:</b></h4><p class="w3-large w3-center"><em>"I love coming to Haukai Restaurant, the food and atmosphere is always great"</em><br>Richard H.</p>
+                </div>
+                <div class="myTestimonials">
+                    <h4 class="w3-center"><b>Testimonials:</b></h4><p class="w3-large w3-center"><em>"Highly recommend the Haukai Restaurant, A+++++"</em><br>Julia B.</p>
+                </div>
+                <div class="myTestimonials">
+                    <h4 class="w3-center"><b>Testimonials:</b></h4><p class="w3-large w3-center"><em>"When I am back in the Bay of Islands, I will definitely be booking a table"</em><br>Simon D.</p>
+                </div>
+                <div class="myTestimonials">
+                    <h4 class="w3-center"><b>Testimonials:</b></h4><p class="w3-large w3-center"><em>"The Māori culture that is on offer is worth the visit, the food is an added bonus"</em><br>Margaret G.</p>
+                </div>
             </div>
-            <div class="myTestimonials">
-                <b>Testimonials:</b><p><em>"When I am back in the Bay of Islands, I will definitely be booking a table"</em><br>Simon D.</p>
-            </div>
-            <div class="myTestimonials">
-                <b>Testimonials:</b><p><em>"The Māori culture that is on offer is worth the visit, the food is an added bonus"</em><br>Margaret G.</p>
-            </div>
-        </div>
-        <div class="footerbox">
+            <div class="w3-third w3-container">
             <!--https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/-->
-            <b>Social Media:</b><br><a href="https://facebook.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/facebook-square-brands.svg" alt="facebook logo"></a><a href="https://instagram.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/instagram-brands.svg" alt ="instagram logo"></a><a href="https://youtube.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/youtube-brands.svg" alt = "youtube logo"></a><a href="https://tiktok.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/tiktok-brands.svg" alt="tiktok logo"></a><a href="https://twitter.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img class="socialLogo" src="images/twitter-brands.svg" alt="twitter logo"></a>
+            <h4 class="w3-center"><b>Social Media:</b></h4>
+                <div class="w3-row w3-row-padding">
+                    <div class="w3-col" style="width:25%"><p></p></div>
+                    <div class="w3-col s4" style="width:10%"><a href="https://facebook.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img src="images/facebook-square-brands.svg" alt="facebook logo"></a></div>
+                    <div class="w3-col s4" style="width:10%"><a href="https://instagram.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img src="images/instagram-brands.svg" alt ="instagram logo"></a></div>
+                    <div class="w3-col s4" style="width:10%"><a href="https://youtube.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img src="images/youtube-brands.svg" alt = "youtube logo"></a></div>
+                    <div class="w3-col s4" style="width:10%"><a href="https://tiktok.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img src="images/tiktok-brands.svg" alt="tiktok logo"></a></div>
+                    <div class="w3-col s4" style="width:10%"><a href="https://twitter.com/haukairestaurant" target="_blank" rel="noopener noreferrer"><img src="images/twitter-brands.svg" alt="twitter logo"></a></div>
+                </div>
+            </div>
         </div>
-        <p class="copyright">©Copyright 2022 by The Haukai Restaurant. All rights reversed. You can view our privacy statement <a href="https://gentle-inlet-56983.herokuapp.com/privacy.html">here.</a></p>
+        <p class="w3-large w3-center">©Copyright 2022 by The Haukai Restaurant. All rights reversed. You can view our privacy statement <a href="https://gentle-inlet-56983.herokuapp.com/privacy.html">here.</a></p>
     </footer>
     <script src="js/carouselTest.js"></script> <!--load the slideshow scripts added to the bottom so there isn't an undefined error-->
     <script> carouselTest(); </script><!--Call the script for the slideshow of tstimonaels-->

@@ -190,10 +190,10 @@ h3 {
 }
 
 /*class for text slideshow on the homepage https://www.w3schools.com/w3css/w3css_slideshow.asp*/
-/*.myTestimonials {
+.myTestimonials {
     display:none;
     width:100%;
-}*/
+}
 
 .mainImage {
     position: relative;
