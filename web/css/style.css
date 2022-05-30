@@ -33,7 +33,8 @@ iframe {
 }
 
 .staff_iframe {
-    align-items: center;
+    width: 50vw;
+    align-content: center;
 }
 
 
