@@ -89,55 +89,55 @@ footer {
 }*/
 
 /*Sets the styling for the menu bar - similar to the nav bar but with the text centered*/
-.menuBar {
+/*.menuBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     text-align: center;
-}
+}*/
 
 /*sets the text in the menu bar*/
-.menuBar li a {
+/*.menuBar li a {
     display: block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
     font-size: large;
-}
+}*/
 
-.menuBar ul {
+/*.menuBar ul {
     text-align: center;
 }
 
 .menuBar li {
     display: inline-block;
-}
+}*/
 
 /*when hovering over a menu option it colours it similar to the navbar.*/
-.menuBar li a:hover {
+/*.menuBar li a:hover {
     background-color: #D2DF64;
     color: black;
-}
+}*/
 
 /*lots of */
-.menuStyle {
+/*.menuStyle {
     padding-left:16px;
     padding-right:16px;
     padding-top:32px;
     padding-bottom:32px;
     background-color:white;
-}
+}*/
 
-.menuType {
+/*.menuType {
     text-align: center;
     font-size: 40px;
     padding-top: 32px;
     padding-bottom: 32px;
     background-color: #a6a6a6;
-}
+}*/
 
 .foodImage {
     height: 75px;
@@ -149,16 +149,16 @@ footer {
 }
 
 /*when using the anchour links in menuBar this was added to stop the navbar getting in in the way of showing the menuTypes*/
-h3 { 
+/*h3 { 
     scroll-margin-top: 36px;
 }
 
 .menuText {
       color: #333;
-}
+}*/
 
 /*this was to put the prices inside a box on the right hand side*/
-.menuPrice {
+/*.menuPrice {
     float: right;
     background-color: #333;
     padding: 4px;
@@ -166,7 +166,7 @@ h3 {
     padding-right: 8px;
     border-radius:4px;
     color: white;
-}
+}*/
 
 /*when the screen is larger than 1100 pixels i wanted to stack the beveraigdes into two columns*/
 /*I iused this website to help build the container(parent) and child boxes The min-height was import to get the footer boxes to stay down*/
@@ -185,9 +185,9 @@ h3 {
 }
 
 
-.myImage {
+/*.myImage {
     width:100%;
-}
+}*/
 
 /*class for text slideshow on the homepage https://www.w3schools.com/w3css/w3css_slideshow.asp*/
 .myTestimonials {
@@ -195,7 +195,7 @@ h3 {
     width:100%;
 }
 
-.mainImage {
+/*.mainImage {
     position: relative;
     text-align: center;
     color: white;
@@ -213,10 +213,10 @@ h3 {
     max-height: 5%;
     font-size: 3.5vw;
     font-weight: bold;
-}
+}*/
 
 /* centre text on image https://www.w3schools.com/howto/howto_css_image_text.asp*/
-.centered {
+/*.centered {
     position: absolute;
     top: 33%;
     left: 50%;
@@ -230,20 +230,20 @@ h3 {
 }*/
 
 /*The main text to be centered with some padding*/
-.large_centre {
+/*.large_centre {
     font-size: 36px;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-}
+}*/
 
 /*The text to be centered with some padding smaller than large*/
-.medium_centre {
+/*.medium_centre {
     font-size: 28px;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-}
+}*/
 
 /*my footer to be divided into thirds*/
 /*.footerbox {
@@ -266,19 +266,19 @@ h3 {
 
 
 /*styling for the privacy page*/
-.privacy {
+/*.privacy {
     width: 100%;
     font-size: 28px;
     padding: 2vw;
-}
+}*/
 
 /*styling for the h2 titles on each page excluding main*/
-.title {
+/*.title {
     text-align: center;
     font-size: 50px;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-}
+}*/
 
 /*When the screen is below 1100px make content go vertical. I set it to be 1100 because most modern phones are 1080 pixels wide*/
 /*I worked through the options and classes to select what looked like the best options for what needed adjusting*/
@@ -287,18 +287,18 @@ h3 {
     nav li {float:none;}
     nav {position:relative;}
     .nav li a {font-size:5vw;}*/
-    .menuBar li {display:block;}
+    /*.menuBar li {display:block;}
     .menuBar li a {font-size:5vw;}
     main .large_centre {font-size:3vw;}
     /*footer .footerbox {float:none; font-size:3vw; text-align:center; height:22vw; width:100%;}
     footer .socialLogo{width:6vw; height:6vw;}*/
-    main iframe {width: 100%; height:50vw}
+    /*main iframe {width: 100%; height:50vw}
     /*.copyright {font-size: 2.5vw;}
     .privacy p, ul {font-size: 3vw;}*/
     .bevContainer {flex-direction: column;}
     .bevChild {float:none; min-width: 100%}
     .bevChild h3 {font-size:4vw; padding-bottom:.6vw;}
     .bevChild h4 {font-size:3vw; padding-top:.5vw; padding-bottom:.5vw}
-    .menuText {font-size:3vw;}
-    .menuStyle h4 {font-size:4vw; padding-top:.5vw; padding-bottom:.5vw}
+    /*.menuText {font-size:3vw;}
+    .menuStyle h4 {font-size:4vw; padding-top:.5vw; padding-bottom:.5vw}*/
 }
