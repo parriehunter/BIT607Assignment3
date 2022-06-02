@@ -19,6 +19,7 @@
     <!--The header and nav are common across all pages-->
     <header class="w3-container w3-grey">
         <!--Header image-->
+        <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
         <a href="https://gentle-inlet-56983.herokuapp.com/"><img style="max-width:100%" src="images/HaukaiLogo.png" alt="Haukai Restaurant Logo"></a>
     </header>
     <!--Create the nav bar and highlight the active tab so it is coloured and stands out-->
@@ -30,7 +31,7 @@
         <a href="https://gentle-inlet-56983.herokuapp.com/reservations.html" class="w3-bar-item w3-button w3-mobile w3-xlarge w3-hover-grey w3-hover-text-white"><b>Book Now</b></a>
         <a href="https://gentle-inlet-56983.herokuapp.com/private/staff.html" class="w3-bar-item w3-button w3-mobile w3-xlarge w3-hover-grey w3-hover-text-white w3-right"><b>Staff Login</b></a>
     </nav>
-    <nav class="w3-bar w3-black w3-hide-large">
+    <nav class="w3-bar w3-black w3-hide-large w3-hide-small">
         <a href="https://gentle-inlet-56983.herokuapp.com/" class="w3-bar-item w3-button w3-mobile w3-large w3-lime w3-hover-lime">Home</a>
         <a href="https://gentle-inlet-56983.herokuapp.com/contact.html" class="w3-bar-item w3-button w3-mobile w3-large w3-hover-grey w3-hover-text-white">Contact</a>
         <a href="https://gentle-inlet-56983.herokuapp.com/hours.html" class="w3-bar-item w3-button w3-mobile w3-large w3-hover-grey w3-hover-text-white">Hours</a>
@@ -38,12 +39,22 @@
         <a href="https://gentle-inlet-56983.herokuapp.com/reservations.html" class="w3-bar-item w3-button w3-mobile w3-large w3-hover-grey w3-hover-text-white">Book Now</a>
         <a href="https://gentle-inlet-56983.herokuapp.com/private/staff.html" class="w3-bar-item w3-button w3-mobile w3-large w3-hover-grey w3-hover-text-white w3-right">Staff Login</a>
     </nav>
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left w3-black w3-hide-large w3-hide-medium" style="width:200px;" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+        <a href="https://gentle-inlet-56983.herokuapp.com/" class="w3-bar-item w3-button w3-large w3-lime w3-hover-lime">Home</a>
+        <a href="https://gentle-inlet-56983.herokuapp.com/contact.html" class="w3-bar-item w3-button w3-large w3-hover-grey w3-hover-text-white">Contact</a>
+        <a href="https://gentle-inlet-56983.herokuapp.com/hours.html" class="w3-bar-item w3-button w3-large w3-hover-grey w3-hover-text-white">Hours</a>
+        <a href="https://gentle-inlet-56983.herokuapp.com/menu.html" class="w3-bar-item w3-button w3-large w3-hover-grey w3-hover-text-white">Our Food</a>
+        <a href="https://gentle-inlet-56983.herokuapp.com/reservations.html" class="w3-bar-item w3-button w3-large w3-hover-grey w3-hover-text-white">Book Now</a>
+        <a href="https://gentle-inlet-56983.herokuapp.com/private/staff.html" class="w3-bar-item w3-button w3-large w3-hover-grey w3-hover-text-white w3-right">Staff Login</a>
+    </nav>
+
     <main>
-        <!--Create an image to show of the restaurant-->
+        <!--Create an image to show of the restaurant it shows slightly different on large screens comapred to medium and small.-->
         <div class="w3-display-container w3-hide-small w3-hide-medium">
             <img src="images/HaukaiRestaurant.jpg" alt="photo of Haukai Restaurant" style="width:100%"> <!--Image reference image ref https://www.pexels.com/photo/trendy-interior-of-cafe-with-creative-lamps-and-wooden-furniture-3887985/-->
             <!--Add text over the images-->
-            <div class="w3-display-middle w3-jumbo w3-text-white">Welcome to the Haukai Restaurant<br>Where the food is just one part of the experience</div>
+            <div class="w3-display-middle w3-jumbo w3-text-white w3-center ">Welcome to the Haukai Restaurant<br>Where the food is just one part of the experience</div>
         </div>
         <div class="w3-display-container w3-hide-large">
             <p class="w3-xlarge w3-center">Welcome to the Haukai Restaurant<br>Where the food is just one part of the experience</p>
@@ -94,5 +105,14 @@
     </footer>
     <script src="js/carouselTest.js"></script> <!--load the slideshow scripts added to the bottom so there isn't an undefined error-->
     <script> carouselTest(); </script><!--Call the script for the slideshow of testimonaels-->
+    <script>
+        function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+        }
+        
+        function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+        }
+        </script>
 </body>
 </html>
