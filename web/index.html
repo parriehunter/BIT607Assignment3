@@ -50,13 +50,20 @@
     </nav>
     <main>
         <!--Create an image to show of the restaurant it shows slightly different on large screens comapred to medium and small.-->
-        <div class="w3-display-container">
-            <p class="w3-xlarge w3-center w3-hide-large">Welcome to the Haukai Restaurant<br>Where the food is just one part of the experience</p>
-            <img class ="mainImages" src="images/HaukaiRestaurant.jpg" alt="photo of Haukai Restaurant" style="width:100%"> <!--Image reference image ref https://www.pexels.com/photo/trendy-interior-of-cafe-with-creative-lamps-and-wooden-furniture-3887985/-->
-            <img class ="mainImages" src="images/Russell_Sunset.jpg" alt="photo of sunset of Russell" style="width:100%">
+        <div class="w3-display-container w3-hide-small w3-hide-medium">
+            <img class ="mainImagesLarge" src="images/HaukaiRestaurant.jpg" alt="photo of Haukai Restaurant" style="width:100%"> <!--Image reference image ref https://www.pexels.com/photo/trendy-interior-of-cafe-with-creative-lamps-and-wooden-furniture-3887985/-->
+            <img class ="mainImagesLarge" src="images/Russell_Sunset.jpg" alt="photo of sunset of Russell" style="width:100%">
             <!--Add text over the images-->
-            <div class="w3-display-middle w3-jumbo w3-text-white w3-center w3-hide-small w3-hide-medium">Welcome to the Haukai Restaurant<br>Where the food is just one part of the experience</div>
+            <div class="w3-display-middle w3-jumbo w3-text-white w3-center ">Welcome to the Haukai Restaurant<br>Where the food is just one part of the experience</div>
         </div>
+
+        <div class="w3-display-container w3-small">
+            <img class ="mainImagesSmall" src="images/HaukaiRestaurant.jpg" alt="photo of Haukai Restaurant" style="width:100%"> <!--Image reference image ref https://www.pexels.com/photo/trendy-interior-of-cafe-with-creative-lamps-and-wooden-furniture-3887985/-->
+            <img class ="mainImagesSmall" src="images/Russell_Sunset.jpg" alt="photo of sunset of Russell" style="width:100%">
+            <!--Add text over the images-->
+            <p class="w3-xlarge w3-center w3-hide-large">Welcome to the Haukai Restaurant<br>Where the food is just one part of the experience</p>
+        </div>
+       
 
         <!--the main body of text on the home page-->
         <p class="w3-xlarge w3-center">We specialise in Māori <em>kai</em> (food) in Kerikeri, Bay of Islands</p>
@@ -101,9 +108,11 @@
         <p class="w3-large w3-center">©Copyright 2022 by The Haukai Restaurant. All rights reversed. You can view our privacy statement <a href="https://gentle-inlet-56983.herokuapp.com/privacy.html">here.</a></p>
     </footer>
     <script src="js/carouselTest.js"></script> <!--load the slideshow scripts added to the bottom so there isn't an undefined error-->
-    <script src="js/carouselImage.js"></script> <!--load the slideshow scripts added to the bottom so there isn't an undefined error-->
+    <script src="js/carouselImageSmall.js"></script> <!--load the slideshow scripts added to the bottom so there isn't an undefined error-->
+    <script src="js/carouselImageLarge.js"></script> <!--load the slideshow scripts added to the bottom so there isn't an undefined error-->
     <script> carouselTest(); </script><!--Call the script for the slideshow of testimonaels-->
-    <script> carouselImage(); </script><!--Call the script for the slideshow of images-->
+    <script> carouselImageSmall(); </script><!--Call the script for the slideshow of images-->
+    <script> carouselImageLarge(); </script><!--Call the script for the slideshow of images-->
     <script>
         function w3_open() {
           document.getElementById("mySidebar").style.display = "block";
