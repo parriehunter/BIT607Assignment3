@@ -20,15 +20,10 @@
 }
 
 /*class for image slideshow on the homepage https://www.w3schools.com/w3css/w3css_slideshow.asp*/
-.mainImagesSmall {
+.mainImage {
     display:none;
     width:100%;
 }
 
-/*class for image slideshow on the homepage https://www.w3schools.com/w3css/w3css_slideshow.asp*/
-.mainImagesLarge {
-    display:none;
-    width:100%;
-}
 
 
