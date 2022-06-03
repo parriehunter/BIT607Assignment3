@@ -12,5 +12,5 @@ function carouselImageSmall() {
   myIndexImageSmall++;
   if (myIndexImageSmall > x.length) {myIndexImageSmall = 1}    
   x[myIndexImageSmall-1].style.display = "block";  
-  setTimeout(carouselImageLarge, 10000); // Change image every 10 seconds
+  setTimeout(carouselImageSmall, 10000); // Change image every 10 seconds
 }
